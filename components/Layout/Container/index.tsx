@@ -23,8 +23,8 @@ interface ContainerProps {
 export default function Container({ children, ...customMeta }: ContainerProps) {
   const router = useRouter();
   const meta = {
-    title: "Lasha Kakabadze – React.js Developer",
-    description: `React developer, JavaScript enthusiast, and freelancer.`,
+    title: "Samir Durani – Data Scientist",
+    description: `Data scientist, Python enthusiast, and freelancer.`,
     image: "https://www.adrinlol.com/assets/png/Thumbnail.png",
     type: "website",
     ...customMeta,
@@ -49,15 +49,15 @@ export default function Container({ children, ...customMeta }: ContainerProps) {
           property="og:url"
           content={`https://adrinlol.com${router.asPath}`}
         />
-        <link rel="canonical" href={`https://adrinlol.com${router.asPath}`} />
+        <link rel="canonical" href={`https://samirdurrani.com${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Lasha Kakabadze" />
+        <meta property="og:site_name" content="Samir Durrani" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta property="og:image:alt" content={meta.title} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@adrinlolx" />
+        <meta name="twitter:site" content="@samird" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />

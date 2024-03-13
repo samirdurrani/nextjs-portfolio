@@ -6,7 +6,7 @@ import { StringProps } from "helpers/types";
 import { devices } from "helpers/displayDevice";
 import { Flex } from "components/Layout/Container/styles";
 
-import ProfilePicture from "public/assets/png/Lasha.png";
+import ProfilePicture from "public/assets/png/Samir.png";
 
 const Home: NextPage = () => {
   return (
@@ -15,18 +15,22 @@ const Home: NextPage = () => {
         <ContentWrapper>
           <RoundImage
             src={ProfilePicture}
-            alt="Lasha"
-            width="100px"
-            height="100px"
+            alt="Samir"
+            width="300px"
+            height="300px"
           />
           <Flex justify="flexStart" align="baseline">
-            <h2>Welcome to my Portfolio</h2> 👋
+            <h2>Hey, I'm Samir! Welcome to my online oasis 👋</h2>
           </Flex>
           <p>
-            Passionate React Developer with 3+ years of experience blending the
-            design with programming skills to deliver an immersive and engaging
-            user experience through efficient website development, proactive
-            feature optimization, and relentless debugging.
+            I'm actively seeking roles in medicine, research, and public health in San Francisco!
+          </p>
+          <p>
+            Data scientist with 5+ years experience building data infrastructure, tools, and 
+            visualisations to deliver insights to decisionmakers. I've worked as a data science 
+            consultant for political campaigns, public health organizations, and public sector institutions. 
+            I currently work at The Trevor Project, supporting a suicide prevention hotline for LGBTQ+ young people 
+            in the United States and México.
           </p>
         </ContentWrapper>
       </HeroFlex>

@@ -16,13 +16,13 @@ export const Header = ({ darkTheme, changeTheme }: HeaderProps) => {
       <Wrapper>
         <Link href="/" passHref>
           <div>
-            <h1>Lasha Kakabadze</h1>
+            <h1>Samir Durrani</h1>
           </div>
         </Link>
         <Flex>
           <Navigation href="/" text="Home" />
-          <Navigation href="/projects" text="Projects" />
-          <Navigation href="/testimonials" text="Testimonials" />
+          <Navigation href="https://github.com/samirdurrani?tab=repositories" text="Projects" />
+          <Navigation href="https://medium.com/@samirdurrani" text="Blog" />
           <button onClick={changeTheme} aria-label="change-theme">
             <svg
               xmlns="http://www.w3.org/2000/svg"

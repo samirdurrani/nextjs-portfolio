@@ -24,24 +24,24 @@ export const Footer = ({ darkTheme }: StringProps) => {
           <GridContainer>
             <FlexLinks>
               <Navigation href="/" text="Home" />
-              <Navigation href="/projects" text="Projects" />
-              <Navigation href="/testimonials" text="Testimonials" />
+              <Navigation href="https://github.com/samirdurrani?tab=repositories" text="Projects" />
+              <Navigation href="https://medium.com/@samirdurrani" text="Blog" />
             </FlexLinks>
             <FlexLinks>
-              <ExternalLink href="https://twitter.com/Adrinlolx">
+              <ExternalLink href="https://twitter.com/samird">
                 Twitter
               </ExternalLink>
-              <ExternalLink href="https://github.com/Adrinlol">
+              <ExternalLink href="https://github.com/samirdurrani">
                 GitHub
               </ExternalLink>
-              <ExternalLink href="https://www.linkedin.com/in/lasha-kakabadze/">
+              <ExternalLink href="https://www.linkedin.com/in/samirdurrani/">
                 LinkedIn
               </ExternalLink>
             </FlexLinks>
-            <FlexLinks>
+            {/* <FlexLinks>
               <ExternalLink href="/">Test</ExternalLink>
               <Navigation href="/top-tracks" text="Test" />
-            </FlexLinks>
+            </FlexLinks> */}
           </GridContainer>
           <ScrollToTop darkTheme={darkTheme} />
         </Flex>
